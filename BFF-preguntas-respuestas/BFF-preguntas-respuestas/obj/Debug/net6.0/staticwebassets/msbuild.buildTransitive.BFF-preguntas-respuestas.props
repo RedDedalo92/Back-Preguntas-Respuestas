@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BFF-preguntas-respuestas.props" />
+</Project>
