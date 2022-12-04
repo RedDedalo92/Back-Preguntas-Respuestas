@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj": {}
+    "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj": {
+    "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
+        "projectUniqueName": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
         "projectName": "BFF-preguntas-respuestas",
-        "projectPath": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
+        "projectPath": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
         "packagesPath": "C:\\Users\\lator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\obj\\",
+        "outputPath": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lator\\AppData\\Roaming\\NuGet\\NuGet.Config",
