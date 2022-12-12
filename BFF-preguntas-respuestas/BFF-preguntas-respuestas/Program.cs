@@ -1,9 +1,16 @@
+using BFF_preguntas_respuestas.Domain.IRepositories;
+using BFF_preguntas_respuestas.Domain.IServices;
 using BFF_preguntas_respuestas.Persistance.Context;
+using BFF_preguntas_respuestas.Persistance.Repositories;
+using BFF_preguntas_respuestas.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
