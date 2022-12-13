@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nFtHiEM+P/O3YB3TjwijZozPa96g7Bynn+wYx+r6p560WRjkfGVSg+LOQzluMPq+8tiNmnmQfFUqgi9t1FIe1g==",
+  "dgSpecHash": "NTRG6GdwMVRPLoyOrg1VUFMIwyTW/+Glh8+3D+bpIGantrNaEdvyeaOI4nXxGTuRRs3cH/bm0nQ5wMoF7qLqBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lator\\OneDrive\\Documentos\\Angular\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
+  "projectFilePath": "C:\\Users\\lator\\Documents\\Desarrollo\\Desarrollo\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lator\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\lator\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
