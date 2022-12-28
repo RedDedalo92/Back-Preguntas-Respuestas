@@ -3728,11 +3728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lator\\Documents\\Desarrollo\\Desarrollo\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
+      "projectUniqueName": "D:\\Dev\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
       "projectName": "BFF-preguntas-respuestas",
-      "projectPath": "C:\\Users\\lator\\Documents\\Desarrollo\\Desarrollo\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
+      "projectPath": "D:\\Dev\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
       "packagesPath": "C:\\Users\\lator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lator\\Documents\\Desarrollo\\Desarrollo\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\obj\\",
+      "outputPath": "D:\\Dev\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lator\\AppData\\Roaming\\NuGet\\NuGet.Config",
