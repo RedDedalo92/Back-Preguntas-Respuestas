@@ -44,7 +44,7 @@ namespace BFF_preguntas_respuestas.Controllers
         {
             try
             {
-                int id = 10;
+                int id = 3;
                 string passwordEncriptado = Encriptador.EncriptarPassword(cambiarPassword.PasswordAnterior);
                 var usuario = await _iUsuarioService.ValidatePassword(id, passwordEncriptado);
                 if(usuario == null)
