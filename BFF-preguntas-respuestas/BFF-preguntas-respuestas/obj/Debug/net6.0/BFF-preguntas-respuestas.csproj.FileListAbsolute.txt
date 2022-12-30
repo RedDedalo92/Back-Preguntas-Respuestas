@@ -269,6 +269,7 @@ D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuest
 D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Azure.Core.dll
 D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Azure.Identity.dll
 D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Humanizer.dll
+D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\Dev\Back-Preguntas-Respuestas\BFF-preguntas-respuestas\BFF-preguntas-respuestas\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll

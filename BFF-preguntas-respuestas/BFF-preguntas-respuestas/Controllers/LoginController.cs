@@ -12,10 +12,12 @@ namespace BFF_preguntas_respuestas.Controllers
     public class LoginController : ControllerBase
     {
         private readonly ILoginService _loginService;
+        private readonly IConfiguration _config;
 
-        public LoginController(ILoginService loginService)
+        public LoginController(ILoginService loginService, IConfiguration config)
         {
             _loginService = loginService;
+            _config = config;
         }
 
         [HttpPost]
@@ -31,7 +33,9 @@ namespace BFF_preguntas_respuestas.Controllers
                     return BadRequest(new {message = "Usuario o clave invalidos"});
                 }
 
-                return Ok(new {usuario = user.NombreUsuario});
+                string tokenStr = JwtConfigurator.GetToken(user, _config);
+
+                return Ok(new { token = tokenStr });
             }
             catch (Exception ex)
             {

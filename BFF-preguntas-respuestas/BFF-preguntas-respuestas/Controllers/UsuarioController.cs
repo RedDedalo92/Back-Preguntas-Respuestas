@@ -2,8 +2,11 @@
 using BFF_preguntas_respuestas.Domain.Models;
 using BFF_preguntas_respuestas.DTO;
 using BFF_preguntas_respuestas.Utils;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace BFF_preguntas_respuestas.Controllers
 {
@@ -39,11 +42,13 @@ namespace BFF_preguntas_respuestas.Controllers
         }
 
         [Route("CambiarPassword")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut]
         public async Task<IActionResult> CambiarPassword([FromBody] CambiarPasswordDTO cambiarPassword)
         {
             try
             {
+                var identity = HttpContext.User.Identity as ClaimsIdentity;
                 int id = 3;
                 string passwordEncriptado = Encriptador.EncriptarPassword(cambiarPassword.PasswordAnterior);
                 var usuario = await _iUsuarioService.ValidatePassword(id, passwordEncriptado);

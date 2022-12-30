@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8vysKbaH7nhIDoBjNxB24KQSF8sQmfpnp+xJo4NOudK4TrE4fVjjddfGOe4EQdyfAYmgNd9Q2n+rGtHU96k4lw==",
+  "dgSpecHash": "PpcOrT8iyTJ538tMPIOrO1Ky9XsG0fF1yz29Wb0LD2m9bWtjYyZH0yWPRwpCWNk9lkbc5IsrqVZwUOINnKCS4g==",
   "success": true,
   "projectFilePath": "D:\\Dev\\Back-Preguntas-Respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas\\BFF-preguntas-respuestas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lator\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\lator\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\lator\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\lator\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.12\\microsoft.aspnetcore.authentication.jwtbearer.6.0.12.nupkg.sha512",
     "C:\\Users\\lator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\lator\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\lator\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
