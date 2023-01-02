@@ -33,5 +33,22 @@ namespace BFF_preguntas_respuestas.Utils
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
+        public static int getTokenIdUsuario(ClaimsIdentity identity)
+        {
+            if (identity != null)
+            {
+                IEnumerable<Claim> claims = identity.Claims;
+
+                foreach (var claim in claims)
+                {
+                    if (claim.Type == "idUsuario")
+                    {
+                        return Convert.ToInt32(claim.Value);
+                    }
+                }
+            }
+            return 0;
+        }
     }
 }

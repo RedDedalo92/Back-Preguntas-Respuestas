@@ -49,7 +49,7 @@ namespace BFF_preguntas_respuestas.Controllers
             try
             {
                 var identity = HttpContext.User.Identity as ClaimsIdentity;
-                int id = 3;
+                int id = JwtConfigurator.getTokenIdUsuario(identity);
                 string passwordEncriptado = Encriptador.EncriptarPassword(cambiarPassword.PasswordAnterior);
                 var usuario = await _iUsuarioService.ValidatePassword(id, passwordEncriptado);
                 if(usuario == null)
